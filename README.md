@@ -23,9 +23,11 @@ wi = (wi0 / (1 + (dij / τ))) * (1 + α * Ps + β * T + γ * M + δ * V)
 
 rainmanp7 Improvised 2nd of 1st edition.
 
+
 Here's an enhanced version tailored for language learning:
 
 wi = (wi0 / (1 + (dij / τ))) * (1 + α * Ps + β * T + γ * M + δ * V)
+
 
 where:
 - wi: The updated weight for the state i, representing the strength of language learning in that state.
@@ -45,7 +47,9 @@ Now, let's explain the added modifications:
 By introducing these additional aspects, the equation is now more tailored for language learning. Positive self-talk, linear timelines, mnemonics, and visual cues are all incorporated to create a strong and beautiful equation that supports the language acquisition process. The parameters α, β, γ, and δ can be adjusted to fine-tune the equation's behavior based on the specific language learning context and individual learner preferences.
 
 3: rainmanp7 2nd Final attempt.
+
 wi = (wi0 / (1 + (dij / τ))) * (1 + α * Ps + β * T + γ * M + δ * V + ε * MA + ζ * C + η * S + θ * Si)
+
 
 where:
 - wi: The updated weight for the state i.

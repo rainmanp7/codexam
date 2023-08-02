@@ -19,6 +19,7 @@ for posterity sake.
 Q(s, a) = R(s, a) + γ * max_a Q(s', a')
 
 2: rainmanp7 1st attempt modified.
+
 wi = (wi0 / (1 + (dij / τ))) * (1 + α * Ps + β * T + γ * M + δ * V)
 
 rainmanp7 Improvised 2nd of 1st edition.

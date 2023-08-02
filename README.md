@@ -17,11 +17,11 @@ for posterity sake.
 
 1: Bellman
 Q(s, a) = R(s, a) + γ * max_a Q(s', a')
-
+````
 2: rainmanp7 1st attempt modified.
 
 wi = (wi0 / (1 + (dij / τ))) * (1 + α * Ps + β * T + γ * M + δ * V)
-
+````
 rainmanp7 Improvised 2nd of 1st edition.
 
 
@@ -46,12 +46,12 @@ Now, let's explain the added modifications:
 2. δ * V: Visual cues involvement for language learning in the current state i. This aspect integrates visual aids, such as images, videos, or flashcards, to enhance language comprehension and association.
 
 By introducing these additional aspects, the equation is now more tailored for language learning. Positive self-talk, linear timelines, mnemonics, and visual cues are all incorporated to create a strong and beautiful equation that supports the language acquisition process. The parameters α, β, γ, and δ can be adjusted to fine-tune the equation's behavior based on the specific language learning context and individual learner preferences.
-
+````
 3: rainmanp7 2nd Final attempt.
 
 wi = (wi0 / (1 + (dij / τ))) * (1 + α * Ps + β * T + γ * M + δ * V + ε * MA + ζ * C + η * S + θ * Si)
 
-
+````
 where:
 - wi: The updated weight for the state i.
 - wi0: The initial weight for the state i.
